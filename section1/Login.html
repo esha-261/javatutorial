@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<style>
+    .card{
+        background-color:dimgray;
+        width:20%;
+        padding:30px;
+        height:65%;
+        border-radius:8%;
+        box-shadow:3px 3px 10px 2px white;
+        background-repeat:no-repeat;
+        margin-top:45px;
+    }
+    body{
+        color:white;
+        display:flex;
+        justify-content:center;
+        height:90vh;
+        align-items:center;
+        background-image:url(https://st2.depositphotos.com/3591429/48527/i/450/depositphotos_485279052-stock-photo-pastel-neo-memphis-social-background.jpg);
+    }
+    .brand{
+        text-align:center;
+        text-transform:uppercase;
+        font-family:sans-serif;
+    }
+    .form-title{
+        text-align:center;
+        text-transform:uppercase;
+        font-family:sans-serif;
+    }
+    .text-input{
+        display:block;
+        width:100%;
+        margin-bottom:10px;
+        margin-top:10px;
+        padding:5px;
+        border-radius:5px;
+        border:none;
+        border-bottom:2px solid black;
+    }
+    .submit-button{
+        padding:10px;
+    }
+</style>
+<body>
+    <div class="card">
+        <h2 class="brand">Brand Name</h2>
+        <h3 class="form-title">Login Form</h3>
+        <form action="">
+            <label for="email">Email Address</label>
+            <input type="email"class="text-input">
+            <label for="password">Password</label>
+            <input type="password" class="text-input">
+            <button class="submit-button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
